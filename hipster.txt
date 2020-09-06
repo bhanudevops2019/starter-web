@@ -1,0 +1,9 @@
+	MIDDLEWARE = [
+		'django.middleware.security.SecurityMiddleware',
+		'django.contrib.sessions.middleware.SessionMiddleware', => This is The Namespace OR Framework To Manage The Total Sessions Across all The Requests To This Web Application
+		'django.middleware.common.CommonMiddleware',
+		'django.middleware.csrf.CsrfViewMiddleware',
+		'django.contrib.auth.middleware.AuthenticationMiddleware', => This is The Namespace OR Framework To Associate The DJango Users With The Requests Using The Sessions
+		'django.contrib.messages.middleware.MessageMiddleware',
+		'django.middleware.clickjacking.XFrameOptionsMiddleware',
+	]
